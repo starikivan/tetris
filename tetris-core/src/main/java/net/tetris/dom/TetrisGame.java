@@ -12,6 +12,7 @@ public class TetrisGame implements Joystick, Cloneable {
     private Glass glass;
     private int x;
     private int y;
+    private int xyxy;
     private Figure currentFigure;
     private boolean dropRequested;
     private FigureQueue queue;
