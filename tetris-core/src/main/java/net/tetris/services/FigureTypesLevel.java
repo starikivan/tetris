@@ -8,6 +8,7 @@ import net.tetris.services.randomizer.RandomizerFetcher;
 public class FigureTypesLevel implements GameLevel {
     protected PlayerFigures figuresQueue;
     private GlassEvent event;
+    private GlassEvent event2;
     private Figure.Type[] figureTypesToOpen;
 
     public FigureTypesLevel(PlayerFigures figuresQueue, GlassEvent event, Figure.Type... figureTypesToOpen) {
